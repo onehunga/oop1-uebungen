@@ -3,8 +3,8 @@ package j.michels.uebungen.rechner;
 public class Frustum implements Shape {
 
     private static final double pi3 = Math.PI / 3;
-    private double h;
-    private double r1, r2;
+    private final double h;
+    private final double r1, r2;
 
     public Frustum(double h, double r1, double r2) {
         this.h = h;

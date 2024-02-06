@@ -2,8 +2,8 @@ package j.michels.uebungen.rechner;
 
 public class Pyramid implements Shape {
 
-    private double h;
-    private double a;
+    private final double h;
+    private final double a;
 
     public Pyramid(double h, double a) {
         this.h = h;
